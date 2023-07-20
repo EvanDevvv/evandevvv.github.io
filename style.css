@@ -43,7 +43,7 @@ body, html {
     padding: 20px;
     border-radius: 10px;
     width: 4800px;
-    height: 600px;
+    height: 650px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     font-family: 'Poppins', sans-serif;
     max-width: 500px;
@@ -98,4 +98,11 @@ body, html {
 
   .greenhighlight {
     color: green;
+  }
+  
+  .slanted-link {
+    display: inline-block;
+    color: rgb(12, 194, 255);
+    text-decoration: none;
+    transform: skew(-11deg);
   }

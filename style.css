@@ -42,9 +42,10 @@ body, html {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 450px;
+    width: 4800px;
     height: 600px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
     max-width: 500px;
     text-align: center;
   }
@@ -59,8 +60,42 @@ body, html {
   .header {
     display: flex;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
     font-weight: 700; /* Bold font weight */
+  }
+
+  .checklist {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .checklist li {
+    position: relative;
+    padding-right: 55px;
+    margin-bottom: 10px;
+  }
+  
+  .checklist li::before {
+    content: "✔"; /* Checkmark character */
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 1px;
+    font-size: 18px; /* Adjust the font size of the checkmark */
+    color: #33cc33; /* Adjust the color of the checkmark */
+  }
+
+  .checklistheader {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+  .highlight {
+    color: red; /* Change the text color to red */
+  }
+
+  .greenhighlight {
+    color: green;
   }
